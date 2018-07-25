@@ -29,3 +29,4 @@ def kesha_maker(array)
     letters.join()
     a = letters
   end
+end
