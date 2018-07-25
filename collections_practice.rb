@@ -31,5 +31,6 @@ end
 def find_a(array)
   array.sort do |a|
     a.start_with?("a")
+    return a
   end
 end
