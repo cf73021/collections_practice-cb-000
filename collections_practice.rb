@@ -21,3 +21,11 @@ end
 def reverse_array(array)
   array.reverse
 end
+
+def kesha_maker(array)
+  array.each do |a|
+    letters = a.split()
+    letters[2] = "$"
+    letters.join()
+    a = letters
+  end
