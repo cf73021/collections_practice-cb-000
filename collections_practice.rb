@@ -35,3 +35,6 @@ def find_a(array)
   end
   return a_words
 end
+
+def sum_array(array)
+  array.inject(0) {|sum,x| sum+x}
