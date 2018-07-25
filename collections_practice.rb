@@ -30,7 +30,6 @@ end
 
 def find_a(array)
   array.sort do |a|
-    if a.start_with?("a")
-    return a
+    return a if a.start_with?("a")
   end
 end
