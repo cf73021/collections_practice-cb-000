@@ -32,3 +32,4 @@ def find_a(array)
   a_words = []
   array.each do |a|
     a.start_with?("a")
+    a_words << a
