@@ -24,6 +24,6 @@ end
 
 def kesha_maker(array)
   array.map do |a|
-    a.split("")
+    b = a.split("")
   end
 end
