@@ -15,6 +15,6 @@ end
 
 def swap_elements(array)
   array.sort do |a, b|
-     array[1], array[2] = array[2], array[1]
+     self[a], self[b] = self[b], self[a]
   end
 end
