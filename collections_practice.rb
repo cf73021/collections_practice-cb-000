@@ -33,4 +33,5 @@ def find_a(array)
   array.each do |a|
     a_words << a if a.start_with?("a")
   end
+  return a_words
 end
