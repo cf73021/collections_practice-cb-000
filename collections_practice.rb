@@ -30,6 +30,7 @@ end
 
 def find_a(array)
   array.map do |a|
-    a.start_with?("a")
+    a.sort do |b|
+      b.start_with?("a")
   end
 end
