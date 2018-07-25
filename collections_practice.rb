@@ -28,7 +28,7 @@ def kesha_maker(array)
       letters = b.split()
       letters[2] = "$"
       letters.join()
-      a = letters
+      b = letters
     end
   end
 end
