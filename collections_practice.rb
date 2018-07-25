@@ -26,7 +26,7 @@ def kesha_maker(array)
   array.map do |a|
     a = a.split(",")
     a.each do |b|
-      b 
+      b.upcase 
     end
   end
 end
