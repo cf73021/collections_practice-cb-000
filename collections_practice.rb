@@ -42,6 +42,6 @@ end
 
 def add_s(array)
   array.each do |a|
-    if a <> "feet" a[-1] = a[-1] + "s" if a <> "feet"
+    a[-1] = a[-1] + "s" if a <> "feet"
   end
 end
