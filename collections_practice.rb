@@ -23,13 +23,13 @@ def reverse_array(array)
 end
 
 def kesha_maker(array)
-  array.map do {
-  array.each do |a|
-    letters = a.split()
-    letters[2] = "$"
-    letters.join()
-    a = letters
+  array.map do |a|
+    array.each do |b|
+      letters = b.split()
+      letters[2] = "$"
+      letters.join()
+      a = letters
+    end
   end
-}
 end
 end
